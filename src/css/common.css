@@ -10,9 +10,34 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  border: none;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+button {
+  background-color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+}
+
+.enabled {
+  background-color: white;
+}
+
+.disabled {
+  background-color: darkgray;
+  opacity: 0.4;
+}
+
+#buttonContainer {
+  display: flex;
+  justify-content: center;
 }
